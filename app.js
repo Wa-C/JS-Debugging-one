@@ -4,6 +4,11 @@ const galleryHeader = document.querySelector('.gallery-header');
 const searchBtn = document.getElementById('search-btn');
 const sliderBtn = document.getElementById('create-slider');
 const sliderContainer = document.getElementById('sliders');
+
+
+function visible(){
+  document.getElementById("button-back").style.display = "block";
+}
 // selected image 
 let sliders = [];
 
